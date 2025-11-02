@@ -1,42 +1,62 @@
-# 💼 Jonathan Litardo – Cybersecurity Engineer Portfolio
+# Jonathan Litardo — Cybersecurity Engineer Portfolio
 
-Welcome to my personal portfolio.  
-I’m **Jonathan Litardo**, a cybersecurity engineer specializing in **AI Security**, **Red Team operations**, and **Cloud Defense Architecture**.  
-Explore my work, skills, and experience in penetration testing, threat detection, and innovative security solutions.
+Welcome to my personal **Cybersecurity Engineer Portfolio**, built with **Next.js 14**, **Tailwind CSS v4**, and **Vercel**.  
+This site showcases my work in **AI Security**, **Red Team Operations**, and **Cloud Defense**, along with my projects, technical skills, and contact information.
 
-## 🚀 Live Site  
-[https://portfolio-lilac-nu-085jeflv6v.vercel.app/](https://portfolio-lilac-nu-085jeflv6v.vercel.app/)  
+---
 
-## 🛠️ Built With  
-- **Next.js 16** (App Router)  
-- **Tailwind CSS** for styling  
-- React & TypeScript  
-- Deployed via **Vercel**  
-- Includes modern design for cybersecurity branding (dark theme, blue accent)
+## 🚀 Live Demo
 
-## 🧩 Sections & Highlights  
-### 🔹 Hero  
-Introduction with name, specialization, and a dynamic typing effect emphasizing key focus areas.  
-### 🔹 About Me  
-Background, certifications, core strengths (Red Team, AI Security, Cloud), and professional approach.  
-### 🔹 Projects  
-A selection of project cards that link to GitHub and/or live demos. Technologies used are clearly displayed.  
-### 🔹 Skills  
-Core toolsets: Python, AWS, Kali Linux, Burp Suite, Threat-Hunting, Network Analysis, etc.  
-### 🔹 Contact  
-Simple form + social links (LinkedIn, GitHub) to connect and explore collaboration possibilities.
+👉 [View Portfolio](https://portfolio-lilac-nu-085jeflv6v.vercel.app/)
 
-## 🧠 Focus & Philosophy  
-My approach to cybersecurity is proactive and innovative:  
-- Combine **offensive and defensive techniques** (Red/Blue teamwork)  
-- Leverage **AI/ML tools** in security automation and threat detection  
-- Architect **cloud-native defense systems** with scalable infrastructure  
-- Present complex security concepts clearly and concisely  
+---
 
-## 📂 How to Run Locally  
+## 🧩 Tech Stack
+
+- **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Charts & Visualization:** [Recharts](https://recharts.org/)
+
+---
+
+## 🧠 Features
+
+- 🏠 **Modern Responsive Design** — optimized for all devices  
+- 🧩 **Dynamic Sections** — Projects, Experience, Skills, and Contact  
+- ⚙️ **TypeScript Support** — for maintainable, type-safe code  
+- 🎨 **Custom UI Components** — clean, minimal, and built with Tailwind  
+- 🔐 **Cybersecurity Focus** — themed for AI, Red Team, and Cloud Security professionals  
+- 🧾 **Metadata + SEO** — optimized titles, descriptions, and OpenGraph tags  
+
+---
+
+## 📰 Coming Soon: Blog Section
+
+A future update will include a **Blog** section for sharing cybersecurity research, write-ups, and insights on AI-driven security trends.  
+The blog will feature:
+- Markdown-based articles
+- Category filters (AI, Red Team, Cloud, etc.)
+- Syntax highlighting for code snippets
+- RSS feed and SEO metadata
+
+---
+
+## 🛠️ Getting Started
+
+To run the portfolio locally:
+
 ```bash
-git clone https://github.com/jonathanlitardo/portfolio.git
-cd portfolio
-npm install
-npm run dev
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/portfolio.git
 
+# Navigate to project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
