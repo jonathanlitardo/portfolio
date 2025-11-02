@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Jonathan Litardo | Cybersecurity Engineer Portfolio",
   description:
     "Professional cybersecurity engineer specializing in AI Security, Red Team operations, and Cloud Defense. Explore my projects, skills, and experience in penetration testing and threat detection.",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   keywords:
     "cybersecurity, AI security, red team, penetration testing, cloud security, threat detection, security engineer",
   authors: [{ name: "Jonathan Litardo" }],
