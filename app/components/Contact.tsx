@@ -36,18 +36,21 @@ export function Contact() {
       label: "Email",
       href: "mailto:litardochambajonathan@gmail.com",
       value: "litardochambajonathan@gmail.com",
+      target: "_blank"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/jonathan-litardo-4a46a4288/",
       value: "/in/jonathan-litardo-4a46a4288",
+      target: "_blank"
     },
     {
       icon: Github,
       label: "GitHub",
       href: "https://github.com/jonathanlitardo",
       value: "@jonathanlitardo",
+      target: "_blank"
     },
   ]
 
