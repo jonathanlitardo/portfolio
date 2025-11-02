@@ -6,7 +6,6 @@ Explore my work, skills, and experience in penetration testing, threat detection
 
 ## 🚀 Live Site  
 [https://portfolio-lilac-nu-085jeflv6v.vercel.app/](https://portfolio-lilac-nu-085jeflv6v.vercel.app/)  
-*(Change the URL if you’ve updated to a custom domain.)*
 
 ## 🛠️ Built With  
 - **Next.js 16** (App Router)  
