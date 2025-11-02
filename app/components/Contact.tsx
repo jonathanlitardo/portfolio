@@ -34,14 +34,14 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:jonathan.litardo@example.com",
-      value: "jonathan.litardo@example.com",
+      href: "mailto:litardochambajonathan@gmail.com",
+      value: "litardochambajonathan@gmail.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/jonathanlitardo",
-      value: "/in/jonathanlitardo",
+      href: "https://www.linkedin.com/in/jonathan-litardo-4a46a4288/",
+      value: "/in/jonathan-litardo-4a46a4288",
     },
     {
       icon: Github,
