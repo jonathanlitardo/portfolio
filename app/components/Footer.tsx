@@ -5,8 +5,8 @@ export function Footer() {
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/jonathanlitardo", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/jonathanlitardo", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:jonathan.litardo@example.com", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/jonathan-litardo-4a46a4288/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:litardochambajonathan@gmail.com", label: "Email" },
 ]
 
   return (
