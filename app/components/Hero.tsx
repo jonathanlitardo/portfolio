@@ -46,7 +46,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="gap-2 group" asChild>
-              <a href="/resume.pdf" download="Jonathan_Litardo_Resume.pdf">
+              <a href="/Jonathan_Litardo_Resume.pdf" download>
                 <Download className="h-4 w-4 group-hover:animate-bounce" />
                 Download CV
               </a>
