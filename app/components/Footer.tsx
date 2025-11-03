@@ -19,6 +19,8 @@ const socialLinks = [
                 key={link.label}
                 href={link.href}
                 aria-label={link.label}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 rounded-lg hover:bg-primary/10 transition-colors group"
               >
                 <link.icon className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
