@@ -6,7 +6,7 @@ import { Download, ArrowRight, ChevronDown } from "lucide-react"
 
 export function Hero() {
   const [displayText, setDisplayText] = useState("")
-  const specializations = ["Red Team Operations", "AI Security Specialist", "Cloud Defense Expert", "Threat Detection"]
+  const specializations = ["Red Team Operations", "AI Security Specialist", "AI Cloud Security", "Threat Detection", "LLM Red Teaming"]
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -45,9 +45,11 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="gap-2 group">
-              <Download className="h-4 w-4 group-hover:animate-bounce" />
-              Download CV
+            <Button size="lg" className="gap-2 group" asChild>
+              <a href="/resume.pdf" download="Jonathan_Litardo_Resume.pdf">
+                <Download className="h-4 w-4 group-hover:animate-bounce" />
+                Download CV
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="gap-2 group bg-transparent" asChild>
               <a href="#projects">
