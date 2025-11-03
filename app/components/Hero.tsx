@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "./ui/button"
-import { Download, ArrowRight } from "lucide-react"
+import { Download, ArrowRight, ChevronDown } from "lucide-react"
 
 export function Hero() {
   const [displayText, setDisplayText] = useState("")
@@ -52,7 +52,8 @@ export function Hero() {
             <Button size="lg" variant="outline" className="gap-2 group bg-transparent" asChild>
               <a href="#projects">
                 View Projects
-                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                <ChevronDown className="w-5 h-5" />
+                {/* <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" /> */}
               </a>
             </Button>
           </div>

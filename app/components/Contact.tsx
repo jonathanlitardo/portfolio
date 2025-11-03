@@ -55,8 +55,8 @@ export function Contact() {
   ]
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto max-w-5xl">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 w-full overflow-hidden">
+      <div className="container mx-auto max-w-5xl w-full">
         <div className="space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-3xl sm:text-4xl font-bold">Get In Touch</h2>
@@ -66,8 +66,8 @@ export function Contact() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-8 bg-card border-border space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+            <Card className="p-6 sm:p-8 bg-card border-border space-y-6 w-full min-w-0">
               <h3 className="text-2xl font-semibold">Contact Information</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Feel free to reach out through any of these channels. I typically respond within 24 hours.
@@ -79,19 +79,19 @@ export function Contact() {
                     href={link.href}
                     className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors group"
                   >
-                    <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                    <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors shrink-0">
                       <link.icon className="h-5 w-5 text-primary" />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <div className="text-sm text-muted-foreground">{link.label}</div>
-                      <div className="font-medium">{link.value}</div>
+                      <div className="font-medium break-all">{link.value}</div>
                     </div>
                   </a>
                 ))}
               </div>
             </Card>
 
-            <Card className="p-8 bg-card border-border">
+            <Card className="p-6 sm:p-8 bg-card border-border w-full min-w-0">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">
