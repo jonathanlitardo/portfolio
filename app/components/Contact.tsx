@@ -36,21 +36,18 @@ export function Contact() {
       label: "Email",
       href: "mailto:litardochambajonathan@gmail.com",
       value: "litardochambajonathan@gmail.com",
-      target: "_blank"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/jonathan-litardo-4a46a4288/",
       value: "/in/jonathan-litardo-4a46a4288",
-      target: "_blank"
     },
     {
       icon: Github,
       label: "GitHub",
       href: "https://github.com/jonathanlitardo",
       value: "@jonathanlitardo",
-      target: "_blank"
     },
   ]
 
@@ -77,6 +74,8 @@ export function Contact() {
                   <a
                     key={link.label}
                     href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors group"
                   >
                     <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors shrink-0">
